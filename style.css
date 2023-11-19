@@ -1,4 +1,15 @@
 /* Basic Reset */
+:root {
+    --link-color-light: #c00056;
+    /* Blue for light theme */
+    --link-color-dark: #4da6ff;
+    /* Lighter blue for dark theme */
+    --background-color-light: #ffffff;
+    /* White background */
+    --background-color-dark: #1a1a1a;
+    /* Dark background */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +25,16 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
+}
+
+/* Base styles for <a> tags */
+a {
+    color: var(--link-color-light);
+    /* Default to light theme color */
+    transition: color 0.3s ease;
+    /* Smooth transition for color change */
+    text-decoration: none;
+    /* Optional: Removes underline */
 }
 
 header {
@@ -54,6 +75,7 @@ main {
     width: 100%;
     max-width: 960px;
     padding: 20px;
+    flex-grow: 1
 }
 
 footer {
@@ -62,6 +84,7 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: #f4f4f4;
+    margin-top: auto;
 }
 
 /* Button Styles */
