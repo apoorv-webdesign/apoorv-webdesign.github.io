@@ -97,6 +97,32 @@ footer {
     cursor: pointer;
 }
 
+/* Spacing for headings */
+h2,
+h4 {
+    color: #444;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Spacing for paragraphs */
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Styling for lists */
+ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    /* for indenting list items */
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
 /* Dark Theme Styles */
 .dark-mode {
     background-color: #333;
