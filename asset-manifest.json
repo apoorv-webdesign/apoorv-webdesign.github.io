@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/apoorv-webdesign.github.io/static/css/main.c9d343bc.css",
+    "main.js": "/apoorv-webdesign.github.io/static/js/main.389bd745.js",
+    "index.html": "/apoorv-webdesign.github.io/index.html",
+    "main.c9d343bc.css.map": "/apoorv-webdesign.github.io/static/css/main.c9d343bc.css.map",
+    "main.389bd745.js.map": "/apoorv-webdesign.github.io/static/js/main.389bd745.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9d343bc.css",
+    "static/js/main.389bd745.js"
+  ]
+}
