@@ -135,6 +135,7 @@ ul li {
 }
 
 .dark-mode nav a,
+.dark-mode h2,
 .dark-mode footer {
     color: #f4f4f4;
 }
